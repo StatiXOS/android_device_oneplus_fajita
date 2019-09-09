@@ -31,8 +31,5 @@ DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 # Recovery
 TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := $(DEVICE_PATH)/ramdisk-recovery.cpio
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += device/oneplus/common
-
 # inherit from the proprietary version
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
